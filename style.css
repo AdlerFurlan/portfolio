@@ -165,3 +165,12 @@ a:hover {
 
 
 
+.fim{
+    background-image: url(./Imagens/thumb-1920-789452.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0;
+}
