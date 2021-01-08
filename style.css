@@ -93,8 +93,9 @@ a:hover {
     position: relative;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
-    padding: 0px;
-    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 .caixa.primeiro>.imagem{
     background-image: url(./Imagens/27b7e1258e4662a226bbd3549e785bf5.jpg);
@@ -122,8 +123,8 @@ a:hover {
 .caixa.primeiro p{
     font-size: 40px;
 }
-.conteudo{
-    margin: 30px;
+.segundo{
+    background-color: #c3beaa;
 }
 .conteudo>.imagenssegundo{
     display: flex;
@@ -170,6 +171,11 @@ a:hover {
     height: 300px;
     box-shadow: 0px 0px 9px #0000007a;
 }
+.conteudoterceiro>img:hover{
+    width: 350px;
+    height: 350px;
+    transition-duration: 1000ms;
+}
 .conteudoterceiro:nth-child(even)>.texto{
     margin-left: 30px;
 }
@@ -179,10 +185,35 @@ a:hover {
 .terceiro :nth-child(odd){
     flex-direction: row-reverse;
 }
-
+.imagemudanca{
+    padding-bottom:  0px !important;
+    padding-top: 0px !important;
+    margin: 0px !important;
+}
 .quarto{
     background-color: #c3beaa;
     margin-top: 0px;
+}
+.conteudoquarto{
+    justify-content: space-around;
+}
+.conteudoquarto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.textoquarto{
+    height: 100%;
+}
+.listaquarto{
+    list-style: none;
+    line-height: 3;
+}
+.conteudoquarto img{
+    border: solid #765350;
 }
 .caixa2.sexto>.imagem{
     background-image: url(./Imagens/db2cqol-1930bc76-2254-4a2b-a29a-4d3622de94a7.png);
@@ -198,10 +229,12 @@ a:hover {
     background-image: url(./Imagens/thumb-1920-789452.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
+    background-size: 100%;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
     margin: 0;
+    height: 100vh;
 }
 
 
