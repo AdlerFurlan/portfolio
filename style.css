@@ -172,9 +172,7 @@ a:hover {
     box-shadow: 0px 0px 9px #0000007a;
 }
 .conteudoterceiro>img:hover{
-    width: 350px;
-    height: 350px;
-    transition-duration: 1000ms;
+    opacity: 0.8;
 }
 .conteudoterceiro:nth-child(even)>.texto{
     margin-left: 30px;
@@ -214,6 +212,28 @@ a:hover {
 }
 .conteudoquarto img{
     border: solid #765350;
+}
+.conteudoquinto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudoquinto img{
+    width: 350px;
+    height: 300px;
+    box-shadow: 0px 0px 9px #0000007a;
+}
+.conteudoquinto p:hover{
+    background-color: rgb(76 76 76 / 10%);
+    border-radius: 10px;
+}
+.conteudoquinto div:nth-child(2){
+    margin-left: 150px;
+}
+.conteudoquinto img:hover{
+    opacity: 0.8;
 }
 .caixa2.sexto>.imagem{
     background-image: url(./Imagens/db2cqol-1930bc76-2254-4a2b-a29a-4d3622de94a7.png);
